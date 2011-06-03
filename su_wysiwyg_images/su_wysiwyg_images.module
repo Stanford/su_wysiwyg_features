@@ -1,0 +1,3 @@
+<?php
+
+include_once('su_wysiwyg_images.features.inc');
