@@ -38,5 +38,15 @@ function su_wysiwyg_tests_user_default_permissions() {
     ),
   );
 
+  // Exported permission: view revisions
+  $permissions['view revisions'] = array(
+    'name' => 'view revisions',
+    'roles' => array(
+      '0' => 'admin',
+      '1' => 'contributor',
+      '2' => 'editor',
+    ),
+  );
+
   return $permissions;
 }
