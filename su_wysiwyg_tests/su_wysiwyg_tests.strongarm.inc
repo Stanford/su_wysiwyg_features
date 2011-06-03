@@ -29,37 +29,6 @@ function su_wysiwyg_tests_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'image_resize_filter_image_locations_3';
-  $strongarm->value = array(
-    'local' => 'local',
-    'remote' => 0,
-  );
-
-  $export['image_resize_filter_image_locations_3'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'image_resize_filter_link_3';
-  $strongarm->value = 0;
-
-  $export['image_resize_filter_link_3'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'image_resize_filter_link_class_3';
-  $strongarm->value = '';
-
-  $export['image_resize_filter_link_class_3'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'image_resize_filter_link_rel_3';
-  $strongarm->value = '';
-
-  $export['image_resize_filter_link_rel_3'] = $strongarm;
-  $strongarm = new stdClass;
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'imce_custom_content';
   $strongarm->value = array(
     'imce_file_path_content' => 1,
