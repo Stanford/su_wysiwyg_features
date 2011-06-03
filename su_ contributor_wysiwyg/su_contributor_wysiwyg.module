@@ -1,0 +1,3 @@
+<?php
+
+include_once('su_contributor_wysiwyg.features.inc');
