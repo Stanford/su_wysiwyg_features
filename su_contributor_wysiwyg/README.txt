@@ -1,7 +1,7 @@
 
 SU WYSIWYG CONTRIBUTOR FEATURE
 ==============================
-ver. 6.x-1.0-alpha4
+ver. 6.x-1.0-alpha5
 
 
 
